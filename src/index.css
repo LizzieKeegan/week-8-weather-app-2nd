@@ -52,6 +52,13 @@ strong {
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
+  flex-direction: row;
+}
+.weather-forecast-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
 }
 .weather-forecast-date {
   text-align: center;
@@ -73,6 +80,7 @@ strong {
 }
 .weather-forecast-temperature {
   padding: 0 10px;
+  font-weight: bold;
 }
 .weather-app-data {
   display: flex;
